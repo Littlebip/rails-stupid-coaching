@@ -1,0 +1,10 @@
+<div class="border-start border-dark-subtle border-5 bg-light ms-3 mb-2 p-3">
+  <p><%= @answer%></p>
+  <p><em>-You</em></p>
+</div>
+<div class="border-start border-dark-subtle border-5 ms-3 mb-2 p-3 bg-warning-subtle text-emphasis-warning">
+  <p><strong><%= @coach_answer %></strong></p>
+  <p><em>-Your coach</em></p>
+</div>
+
+<p class="ms-3 p-3 text-decoration-none"><%= link_to "Ask a new question", ask_path %></p>
